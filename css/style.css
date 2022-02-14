@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    background: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+.content_box {
+    max-width: 600px;
+}
+
+.content {
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+}
+
+.content_flex {
+    display: flex;
+    border-radius: 0 0 20px 20px;
+}
+
+.flex_box {
+    padding: 40px;
+    width: 50%;
+}
+
+.bg_1 {
+    background: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 20px;
+}
+
+.bg_2 {
+    background: hsl(179, 62%, 46%);
+    border-radius: 0 0 20px 0;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    background: hsl(71, 73%, 54%);
+    box-shadow: 0 0 5px 0 hsl(218, 22%, 67%);
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        border-radius: 10px 10px 0 0;
+        padding: 40px 20px;
+    }
+    .content_flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex_box {
+        padding: 40px 20px;
+        width: 100%;
+    }
+    .bg_1 {
+        border-radius: unset;
+    }
+    .bg_2 {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+
+/* 
+    tipografia 
+*/
+
+.content>h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.content>h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+.content>p {
+    color: hsl(218, 22%, 67%);
+}
+
+.flex_box>p {
+    color: #fff;
+}
+
+.box_dolar {
+    display: flex;
+    align-items: center;
+}
+
+.dolar {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.month,
+.tutorial {
+    color: hsl(204, 43%, 93%);
+}
+
+.access {
+    color: #fff;
+}
+
+teste {
+    color: hsl(179, 62%, 43%);
+    color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 67%);
+}
